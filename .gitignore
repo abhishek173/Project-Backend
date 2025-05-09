@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Django
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+
+# MySQL credentials (if stored separately)
+*.cnf
+
+# Virtual Environment
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.ENV/
+.venv.bak/
+pip-selfcheck.json
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+.env
+.env.*
+
+# Migrations 
+**/migrations/*.py
+!**/migrations/__init__.py
